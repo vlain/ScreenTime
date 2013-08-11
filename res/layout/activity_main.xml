@@ -1,0 +1,48 @@
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/info_text"
+        android:paddingTop="10dp"
+        android:text="@string/info" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/info_text"
+        android:paddingTop="10dp"
+        android:id="@+id/how_to_use_text"
+        android:layout_height="wrap_content"
+        android:text="@string/how_to_use" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/how_to_use_text"
+        android:id="@+id/signature_text"
+        android:paddingTop="10dp"
+        android:layout_alignParentRight="true"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:text="@string/signature" />
+ 
+   <ImageView
+        android:id="@+id/logo"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="30dp"
+        android:layout_below="@+id/signature_text"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/screentime_main" />
+    
+</RelativeLayout>

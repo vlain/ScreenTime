@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ScreenTime</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="signature">R. Verago</string>
+    <string name="info">An essential and simple widget to change your screen time(out).</string>
+    <string name="how_to_use">Go on the home page, long press and add the "ScreenTime" widget.</string>
+    
+</resources>
