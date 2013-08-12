@@ -25,15 +25,21 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
         public static final int screentime_main=0x7f020001;
         public static final int screentime_widget=0x7f020002;
+        public static final int t10m=0x7f020003;
+        public static final int t15s=0x7f020004;
+        public static final int t1m=0x7f020005;
+        public static final int t30s=0x7f020006;
+        public static final int tinf=0x7f020007;
     }
     public static final class id {
-        public static final int action_settings=0x7f090006;
+        public static final int action_settings=0x7f090007;
         public static final int how_to_use_text=0x7f090001;
         public static final int info_text=0x7f090000;
         public static final int logo=0x7f090003;
         public static final int signature_text=0x7f090002;
-        public static final int time_image=0x7f090004;
-        public static final int time_text=0x7f090005;
+        public static final int time_image=0x7f090005;
+        public static final int time_text=0x7f090006;
+        public static final int widget_layout=0x7f090004;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -45,10 +51,12 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f060001;
         public static final int app_name=0x7f060000;
-        public static final int hello_world=0x7f060002;
-        public static final int how_to_use=0x7f060005;
-        public static final int info=0x7f060004;
-        public static final int signature=0x7f060003;
+        public static final int default_time_text=0x7f060006;
+        public static final int hello_world=0x7f060004;
+        public static final int how_to_use=0x7f060003;
+        public static final int info=0x7f060002;
+        public static final int signature=0x7f060007;
+        public static final int widget=0x7f060005;
     }
     public static final class style {
         /** 

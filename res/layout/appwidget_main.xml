@@ -1,26 +1,31 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="@dimen/widget_margin" >
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal" >
+    android:layout_height="wrap_content"
+    android:id="@+id/widget_layout"
+    >
 
         <ImageView
             android:id="@+id/time_image"
-            android:src="@drawable/screentime_widget"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        
+            android:layout_height="88dp"
+            android:paddingBottom="20dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/widget"
+            android:src="@drawable/t30s" />
+
         <TextView
             android:id="@+id/time_text"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingTop="10dp"
-            android:text="@string/info" />
-    </LinearLayout>
-
-</FrameLayout> 
+            android:layout_height="60dp"
+            android:paddingTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:shadowColor="#111111"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="@string/default_time_text"
+            android:textColor="#DDDDDD"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+</RelativeLayout>
